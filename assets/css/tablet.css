@@ -1,0 +1,51 @@
+@media only screen and (max-width:1366px) {
+
+	/*homepage styling*/
+
+	/*start fixed nav*/
+
+	#guarantee {
+		display: none;
+	}
+
+	/*start page header*/
+
+	/*h1 {
+		font-size: 60px;
+	}*/
+
+	/*start regular nav*/
+	/*
+	.primaryNav {
+		border-bottom: 4px double #D09683;
+	}
+
+	#navLinks {
+		padding-right: 0%;
+		padding-left: 0%;
+	}*/
+
+}
+/*
+@media only screen and (max-width:1050px) {
+*/
+	/*homepage styling*/
+
+	/*start page header*/
+
+	/*h1 {
+		margin-top: 6%;
+	}*/
+
+	/*start regular nav*/
+	
+	/*.primaryNav {
+		border-bottom: 4px double #D09683;
+	}
+
+	#navLinks {
+		padding-right: 0%;
+		padding-left: 0%;
+	}
+*/
+}

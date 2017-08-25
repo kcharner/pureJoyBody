@@ -1,0 +1,182 @@
+/*MOBILE HORIZONTAL*/
+@media only screen and (max-width:750px) {
+
+	#fxedNav {
+		min-height: 15px;
+	}
+
+	#shipping {
+		font-size: 20px;
+	}
+
+	#bulkCustomLogo {
+		margin-top: 0%;
+	}
+
+	.one {
+		display: none;
+	}
+
+	#benefit {
+		display: none;
+	}
+
+	#guarantee {
+		display: none;
+	}
+	.primaryNav {
+		padding: 0%;
+	}
+
+	#navLinks {
+		width: 95%;
+		margin-left: 2.5%;
+		padding: 0%;
+		margin-top: 1%;
+	}
+
+	li {
+		font-size: 17px;
+	}
+
+	.thanksMessage {
+		min-height: 350px;
+	}
+
+	#thankYou {
+		margin-top: 5%;
+		font-size: 80px;
+	}
+
+	.lead {
+		font-size: 22px;
+	}
+
+	#homeBtn {
+		width: 20%;
+		margin-left: 40%;
+	}
+
+	img {
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+
+	.fontSelection {
+		/*margin-left: 25%;*/
+		width: 30%;
+	}
+
+	#submitBtn {
+		width: 20%;
+		margin-left: 40%;
+	}
+
+	#topH5 {
+		margin-top: 3%;
+	}
+
+	/*wholesale page*/
+
+	#bulkOrders {
+		min-height: 450px;
+	}
+	
+	#labelContent {
+		min-height: 200px;
+		font-size: 16px;
+	}
+
+	#customLabelHeader {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width:500px) {
+
+	#fontDesktop {
+		display: none;
+	}
+
+	#fontMobile {
+		display: inline-block;
+	}
+
+	#shipping {
+		font-size: 19px;
+	}
+
+	.pageHeader {
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.customLogo {
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 5%;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	.primaryNav {
+		width: 100%;
+		margin-left: 0%;
+		text-align: left;
+	}
+
+	#navLinks {
+		width: 100%;
+		margin-left: 0%;
+		padding: 0%;
+		margin-top: 2%;
+	}
+
+	li {
+		font-size: 15px;
+		margin-right: 2%;
+		letter-spacing: 0px;
+	}
+
+	.thanksMessage {
+		min-height: 400px;
+	}
+
+	#homeBtn {
+		width: 35%;
+		margin-left: 32.5%;
+	}
+
+	.inputs {
+		width: 100%;
+	}
+
+	.fontSelection {
+		margin-left: 0%;
+		padding-left: 4%;
+		width: 100%;
+	}
+
+	#submitBtn {
+		width: 30%;
+		margin-left: 35%;
+	}
+
+	#colorInput1 {
+		margin-left: 0%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+

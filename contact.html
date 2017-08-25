@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pure Joy: Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link href="assets/css/wholesale.css" rel='stylesheet' type='text/css'>
+  	<!-- <link href="assets/css/tablet.css" rel='stylesheet' type='text/css'> -->
+    <link href="assets/css/mobileBulk.css" rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Arimo:400,700|Dancing+Script|Raleway|Shadows+Into+Light+Two|Arima+Madurai' rel='stylesheet' type='text/css'>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- FIXED NAV -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="fxedNav">
+        <li id="shipping">Free Shipping on Orders $25 or More!</li>
+        <li class="nav navbar-nav navbar-right" id="guarantee">100% Satisfaction: <span class="glyphicon glyphicon-heart heart" aria-hidden="true"></span> it or send it back – it&apos;s simple! We&apos;ll accept any returns within 14 days</li>
+    </nav>
+    <!--  CUSTOM LOGO -->
+    <div class="container-fluid">
+        <div class="row">       	
+	          <header class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 customLogo">
+		           <h1>Pure Joy Body</h1>
+	          </header>
+        </div>
+    </div>
+	<!-- PRIMARY NAV -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-xs-10 col-xs-offset-1 navbar navbar-default primaryNav">
+                <div class="col-xs-6 col-xs-offset-3" id="navLinks">
+                    <ul id="navList">
+                        <li><a href="index">Home</a></li>
+                        <li><a href="shop">Shop</a></li>
+                        <li><a href="blog">Wholesale</a></li>
+                        <li><a href="ourStory">About</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- PAGE HEADER-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 pageHeader" id="contactUs">
+                <h4 id="contactHeader">Contact Us</h4>
+                <h6 id="contactH6">Questions? We'd love to hear from you! Email us today!</h6>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN CONTENT: ORDER FORM -->
+    <div class="container-fluid">
+        <form action="contact.php" method="post" id="contactOrderForm">
+            <!-- <div class="row">
+                <h6 class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2" id="contactH6">Questions? We'd love to hear from you! Email us today!</h6>
+            </div> -->
+            <div class="row">
+                <div class="col-xs-6 col-lg-offset-1 col-lg-5 form-group inputs contactInput">
+                    <label class="labels" for="firstName">Enter Your First Name</label>
+                    <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Jane">
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+                <div class="col-xs-6 col-lg-5 form-group inputs contactInput">
+                    <label class="labels" for="email">Enter Your Email Address</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="janedoe@gmail.com">
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-lg-10 col-lg-offset-1 form-group inputs contactInput">
+                    <label class="labels" for="message">Enter Your Message Here</label>
+                    <textarea class="form-control inputs" name="message" id="message" rows="3" placeholder=". . ."></textarea>
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+            </div>
+            <button type="submit" class="labels btn btn-primary" id="submitBtn">SUBMIT</button>
+        </form>
+    </div>
+    <!-- FOOTER -->
+    <div class="container-fluid">
+        <div class="row"> 
+            <footer id="footer">
+                <p>All-NATURAL LIP &amp; BODY PRODUCTS HANDMADE WITH 
+                <span class="glyphicon glyphicon-heart heart" aria-hidden="true"></span>IN IOWA</p>
+                <p>Follow Us on Pinterest and Instagram</p>
+            </footer>
+        </div>
+    </div>
+    <!-- SCRIPTS -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

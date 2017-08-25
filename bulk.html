@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pure Joy: Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link href="assets/css/wholesale.css" rel='stylesheet' type='text/css'>
+  	<!-- <link href="assets/css/tablet.css" rel='stylesheet' type='text/css'> -->
+    <link href="assets/css/mobileBulk.css" rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Arimo:400,700|Dancing+Script|Raleway|Shadows+Into+Light+Two|Arima+Madurai' rel='stylesheet' type='text/css'>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- FIXED NAV -->
+	<nav class="navbar navbar-default navbar-fixed-top one" id="fxedNav">
+	    <li class="nav navbar-nav navbar-right bulkNav" id="benefit">10% of the proceeds from your bulk order will go to Corrie's House to empower and heal victims of sex trafficking<span class="glyphicon glyphicon-heart heart" aria-hidden="true"></span></li>
+	</nav>
+	<!--  CUSTOM LOGO -->
+	<div class="container-fluid">
+        <div class="row">           
+            <header class="col-xs-10 col-xs-offset-1 customLogo" id="bulkCustomLogo">
+                <h1>Pure Joy Body</h1>
+            </header>
+        </div>
+    </div>
+	<!-- PRIMARY NAV -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-xs-10 col-xs-offset-1 navbar navbar-default primaryNav">
+                <div class="col-xs-6 col-xs-offset-3" id="navLinks">
+                    <ul id="navList">
+                        <li><a href="index">Home</a></li>
+                        <li><a href="shop">Shop</a></li>
+                        <li><a href="blog">Wholesale</a></li>
+                        <li><a href="ourStory">About</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- PAGE HEADER-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 pageHeader">
+                <h4 id="bulkHeader">Wholesale and Custom Order Request</h4>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN CONTENT: ORDER FORM -->
+    <div class="container-fluid">
+        <form action="index.php" method="post" id="bulkOrderForm">
+            <!-- customer info -->
+            <div class="row">
+                <h5 class="col-xs-10 col-xs-offset-1" id="topH5">CUSTOMER INFO</h5>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-lg-offset-1 col-lg-5 form-group has-danger inputs">
+                    <label class="labels" for="firstName">Enter Your First Name</label>
+                    <input type="text" class="form-control form-control-danger" name="firstName" id="firstName" placeholder="Jane">
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+                <div class="col-xs-6 col-lg-5 form-group inputs">
+                    <label class="labels" for="lastName">Enter Your Last Name</label>
+                    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Doe">
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-lg-offset-1 col-lg-5 form-group inputs">
+                    <label class="labels" for="tel">Enter Your Phone Number</label>
+                    <input type="tel" class="form-control" name="tel" id="tel" placeholder="111-111-1111">
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+                <div class="col-xs-6 col-lg-5 form-group inputs">
+                    <label class="labels" for="email">Enter Your Email Address</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="janedoe@gmail.com">
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-7 col-lg-7 col-lg-offset-1 form-group inputs">
+                    <label class="labels" for="address">Enter Your Shipping Address</label>
+                    <input type="text" class="form-control" name="address" id="address"  placeholder="11 Joy Lane - Apartment B, Sioux City IA">
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+            </div>
+            <!-- event info -->
+            <div class="row">
+                <h5 class="col-xs-10 col-xs-offset-1">EVENT DETAILS</h5>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-lg-offset-1 col-lg-4 form-group inputs">
+                    <label class="labels" for="event">What Is Your Event Type?</label>
+                    <select class="form-control" name="event" id="event">
+                        <option>Baby Shower</option>
+                        <option>Bachelorette Party</option>
+                        <option>Birthday Party</option>
+                        <option>Bridal Shower</option>
+                        <option>Bridesmaid Gifts</option>
+                        <option>Business Event</option>
+                        <option>Wedding</option>
+                        <option>Other</option>
+                    </select>
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+                <!-- event date -->
+                <div class="col-xs-3 col-lg-3 form-group inputs">
+                    <label class="labels" for="eventDate" class="col-form-label">Event Date</label>
+                    <input class="form-control" type="date" name="eventDate" id="eventDate">
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+                <!-- requested delivery date -->
+                <div class="col-xs-3 col-lg-3 form-group inputs">
+                    <label class="labels" for="deliveryDate" class="col-form-label">Delivery Date</label>
+                    <input class="form-control" type="date" name="deliveryDate" id="delliveryDate">
+                    <small class="form-text text-muted">This field is required.</small>
+                </div>
+            </div>
+            <div class="row">
+                <!-- event theme -->
+                <div class="col-xs-7 col-lg-offset-1 col-lg-7 form-group inputs">
+                    <label class="labels" for="theme">Please Describe Your Event's Theme</label>
+                    <textarea class="form-control" name="theme" id="theme" rows="1" placeholder="type here . . . "></textarea>
+                </div>
+            </div>
+            <!-- lip balm selection -->
+            <div class="row">
+                <h5 class="col-xs-10 col-xs-offset-1">LIP BALM SELECTION</h5>
+            </div>
+            <div class="row">
+                <h6 class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">*If you have a scent in mind that is not listed and you will be ordering more than 100 lip balms, please indicate the scent you are interested in below in the "Custom Scent Request" field and we may be able to custom make it for you. Additional fees may apply.*</h6>
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <h6 class="labels fontH6">Wholesale Price Breaks</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-5 col-xs-offset-1">
+                    <p class="subHeader">Untinted Balms</p>
+                </div>
+                <div class="col-xs-5">
+                    <p class="subHeader">Tinted Balms</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3 col-xs-offset-1 col-lg-2 col-lg-offset-2">
+                    <p>Quantity</p>
+                    <li class="priceBreaks">&nbsp;&nbsp;&nbsp;&nbsp;15-30</li>
+                    <li class="priceBreaks">&nbsp;&nbsp;&nbsp;&nbsp;31-50</li>
+                    <li class="priceBreaks">&nbsp;&nbsp;&nbsp;&nbsp;51-75</li>
+                    <li class="priceBreaks">&nbsp;&nbsp;76-100</li>
+                    <li class="priceBreaks">101-150</li>
+                    <li class="priceBreaks">151-200</li>
+                    <li class="priceBreaks">201-300</li>
+                    <li class="priceBreaks">301-400</li>
+                    <li class="priceBreaks">401-500</li>
+                    <li class="priceBreaks">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;501+</li>
+                </div>
+                <div class="col-xs-2 col-lg-2">
+                    <p>Price Ea.</p>
+                    <li class="priceBreaks">$3.25</li>
+                    <li class="priceBreaks">$3.10</li>
+                    <li class="priceBreaks">$2.95</li>
+                    <li class="priceBreaks">$2.80</li>
+                    <li class="priceBreaks">$2.65</li>
+                    <li class="priceBreaks">$2.50</li>
+                    <li class="priceBreaks">$2.35</li>
+                    <li class="priceBreaks">$2.20</li>
+                    <li class="priceBreaks">$2.05</li>
+                    <li class="priceBreaks">$1.90</li>
+                </div>
+                <div class="col-xs-3 col-lg-2 col-lg-offset-1">
+                    <p>Quantity</p>
+                    <li class="priceBreaks">&nbsp;&nbsp;&nbsp;&nbsp;15-30</li>
+                    <li class="priceBreaks">&nbsp;&nbsp;&nbsp;&nbsp;31-50</li>
+                    <li class="priceBreaks">&nbsp;&nbsp;&nbsp;&nbsp;51-75</li>
+                    <li class="priceBreaks">&nbsp;&nbsp;76-100</li>
+                    <li class="priceBreaks">101-150</li>
+                    <li class="priceBreaks">151-200</li>
+                    <li class="priceBreaks">201-300</li>
+                    <li class="priceBreaks">301-400</li>
+                    <li class="priceBreaks">401-500</li>
+                    <li class="priceBreaks">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;501+</li>
+                </div>
+                <div class="col-xs-3">
+                    <p>Price Ea.</p>
+                    <li class="priceBreaks">$4.75</li>
+                    <li class="priceBreaks">$4.60</li>
+                    <li class="priceBreaks">$4.45</li>
+                    <li class="priceBreaks">$4.30</li>
+                    <li class="priceBreaks">$4.15</li>
+                    <li class="priceBreaks">$4.00</li>
+                    <li class="priceBreaks">$3.85</li>
+                    <li class="priceBreaks">$3.70</li>
+                    <li class="priceBreaks">$3.55</li>
+                    <li class="priceBreaks">$3.40</li>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <h6 class="labels fontH6">Scent Options</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-lg-2 col-lg-offset-1 form-group inputs">
+                    <label for="number" class="labels col-form-label">Peppermint Lavender</label>
+                    <input class="form-control" type="number" value="0" name="peppermintLavender" id="peppermintLavender">
+                </div>
+                <div class="col-xs-6 col-lg-2 form-group inputs">
+                    <label for="number" class="labels col-form-label">Thieves</label>
+                    <input class="form-control" type="number" value="0" name="thieves" id="thieves">
+                </div>
+                <div class="col-xs-6 col-lg-2 form-group inputs">
+                    <label for="number" class="labels col-form-label">Lemongrass</label>
+                    <input class="form-control" type="number" value="0" name="lemongrass" id="lemongrass">
+                </div>
+                <div class="col-xs-6 col-lg-2 form-group inputs">
+                    <label for="number" class="labels col-form-label">Triple Mint</label>
+                    <input class="form-control" type="number" value="0" name="tripleMint" id="tripleMint">
+                </div>
+                <div class="col-xs-12 col-lg-2 form-group inputs">
+                    <label for="number" class="labels col-form-label">Vanilla</label>
+                    <input class="form-control" type="number" value="0"  name="vanilla" id="vanilla">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-lg-2 col-lg-offset-1 form-group inputs">
+                    <label for="number" class="labels col-form-label">Coconut Mango</label>
+                    <input class="form-control" type="number" value="0" name="coconutMango" id="coconutMango">
+                </div>
+                <div class="col-xs-6 col-lg-2 form-group inputs">    
+                    <label for="number" class="labels col-form-label">Lavender Tangerine</label>
+                    <input class="form-control" type="number" value="0" name="lavenderTangerine" id="lavenderTangerine">
+                </div>
+                <div class="col-xs-6 col-lg-2 form-group inputs">
+                    <label for="number" class="labels col-form-label">Strawberry</label>
+                    <input class="form-control" type="number" value="0" name="strawberry" id="strawberry">
+                </div>
+                <div class="col-xs-6 col-lg-2 form-group inputs">
+                    <label for="number" class="labels col-form-label">Free & Clear</label>
+                    <input class="form-control" type="number" value="0" name="freeClear" id="freeClear">
+                </div>
+                <div class="col-xs-12 col-lg-2 form-group inputs">
+                    <label for="number" class="labels col-form-label">Tinted Rose</label>
+                    <input class="form-control" type="number" value="0" name="tintedRose" id="tintedRose">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-lg-2 col-lg-offset-1 form-group inputs">
+                    <label for="number" class="labels col-form-label">Tinted Grapefruit</label>
+                    <input class="form-control" type="number" value="0" name="tintedGrapefruit" id="tintedGrapefruit">
+                </div>
+                <div class="col-xs-6 col-lg-2 form-group inputs">
+                    <label for="number" class="labels col-form-label">Coffee Talk</label>
+                    <input class="form-control" type="number" value="0" name="coffeeTalk" id="coffeeTalk">
+                </div>
+                <div class="col-xs-6 col-lg-2 form-group inputs">
+                    <label class="labels" for="customScent">Custom Scent Request</label>
+                    <input type="text" class="form-control" name="customScent" id="customScent" placeholder="orange">
+                </div>
+            </div>
+            <div class="row">
+                <h5 class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1">CUSTOMIZATION</h5>
+            </div>
+            <div class="row">
+                <h6 class="col-xs-10 col-xs-offset-1">*please note: we charge a $15 personalization fee for your custom design*</h6>
+            </div>
+            <!-- lip balm tube color selection -->
+            <div class="row">
+                <div class="col-xs-6 col-lg-offset-1 col-lg-2 form-group">
+                    <label class="labels" for="tubeColor">Select A Tube Color</label>
+                    <select class="form-control" name="tubeColor" id="tubeColor">
+                        <option>Black</option>
+                        <option>Clear</option>
+                        <option>White</option>
+                    </select>
+                </div>
+                <!-- lip balm label color selection -->
+                <div class="col-xs-6 col-lg-2 form-group">
+                    <label class="labels" for="labelColor">Select A Label Color</label>
+                    <select class="form-control" name="labelColor" id="labelColor">
+                        <option>Brown Kraft</option>
+                        <option>White</option>
+                        <option>Custom</option>
+                    </select>
+                </div>
+                <!-- logo or other images -->
+                <div class="col-xs-6 col-lg-3 form-group">
+                    <label class="labels" for="eventLogo">Do You Have A Logo or Image You Want To Use?</label>
+                    <select class="form-control" name="eventLogo" id="eventLogo">
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+                <div class="col-xs-6 col-lg-3">
+                    <label class="labels" for="eventImage">If No, Describe An Image You Might Like To Add:</label>
+                    <textarea class="form-control" rows="1" name="eventImage" id="eventImage"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <h6 class="labels fontH6">Choose Up To 2 Fonts</h6>
+                </div>
+            </div>
+            <div class="row">
+                <!-- font selection -->
+                <div class="col-xs-8 col-lg-4 col-lg-offset-1 inputs" id="fontImage">
+                    <img src="assets/images/fontChoices.png" alt="fontOptions" id="fontDesktop">
+                    <img src="assets/images/fontchoicesMobile.png" alt="fontOptions" id="fontMobile">
+                </div>
+                <div class="col-xs-4 col-lg-3 form-group inputs fontSelection">
+                    <label class="labels">Font 1</label>
+                    <select class="form-control" name="font1" id="font1">
+                        <option>Waiting For You</option>
+                        <option>Hipsterish</option>
+                        <option>Hugs and Kisses</option>
+                        <option>Indie Flower</option>
+                        <option>A Day Without Sun</option>
+                        <option>College Boy</option>
+                        <option>Wicked Seventies</option>
+                        <option>Peony Charming</option>
+                        <option>Little Bird</option>
+                        <option>Honeydew</option>
+                        <option>Congrats</option>
+                        <option>Jane Austen</option>
+                        <option>Always In My Heart</option>
+                        <option>Simple Print</option>
+                        <option>Fish & Chips</option>
+                        <option>Custom Selection</option>
+                    </select>
+                </div>
+                <div class="col-xs-4 col-lg-3 form-group inputs fontSelection">
+                    <label class="labels">Font 2</label>
+                    <select class="form-control" name="font2" id="font2">
+                        <option>Waiting For You</option>
+                        <option>Hipsterish</option>
+                        <option>Hugs and Kisses</option>
+                        <option>Indie Flower</option>
+                        <option>A Day Without Sun</option>
+                        <option>College Boy</option>
+                        <option>Wicked Seventies</option>
+                        <option>Peony Charming</option>
+                        <option>Little Bird</option>
+                        <option>Honeydew</option>
+                        <option>Congrats</option>
+                        <option>Jane Austen</option>
+                        <option>Always In My Heart</option>
+                        <option>Simple Print</option>
+                        <option>Fish & Chips</option>
+                        <option>Custom Selection</option>
+                    </select>
+                </div>
+                <div class="col-xs-4 col-lg-3 form-group inputs fontSelection">
+                    <label class="labels">Custom Font Request</label>
+                    <textarea class="form-control" name="customFont" id="customFont" rows="1" placeholder="custom font name here"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <h6 class="labels fontH6">Choose Up To 3 Colors</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 col-xs-offset-3 inputs" id="colorInput1">
+                    <label class="labels" for="color1">Color 1</label>
+                    <input name="color1" class="form-control jscolor" value="f5debc">
+                </div>
+                <div class="col-xs-2 inputs">
+                    <label class="labels" for="color2">Color 2</label>
+                    <input name="color2" class="form-control jscolor" value="efb964">
+                </div>
+                <div class="col-xs-2 inputs">
+                    <label class="labels" for="color3">Color 3</label>
+                    <input name="color3" class="form-control jscolor" value="91cfc9">
+                </div>
+            </div>
+            <!-- embedded color picker -->
+            <button type="submit" class="labels btn btn-primary" id="submitBtn">SUBMIT</button>
+        </form>
+    </div>
+    <!-- FOOTER -->
+    <div class="container-fluid">
+        <div class="row"> 
+            <footer id="footer">
+                <p>All-NATURAL LIP &amp; BODY PRODUCTS HANDMADE WITH 
+                <span class="glyphicon glyphicon-heart heart" aria-hidden="true"></span>IN IOWA</p>
+                <p>Follow Us on Pinterest and Instagram</p>
+            </footer>
+        </div>
+    </div>
+    <!-- SCRIPTS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/jscolor.js"></script>
+</body>
+</html>
