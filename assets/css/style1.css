@@ -1,0 +1,536 @@
+body {
+	background-color: white;
+}
+
+h1 {
+	display: inline-block;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 7px;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 50px;
+	font-family: Dancing Script;
+	border: none;
+	color: #689138;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.page-header {
+	height: 170px;
+	margin-top: 0%;
+	text-align: center;
+	border-bottom: none;
+}
+
+#shop {
+	color: #FEDCD2;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	font-size: 70px;
+	font-family: Dancing Script;
+}
+
+#logo {
+	height: 50px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+}
+
+.navbar {
+	background-color: #FEDCD2;
+	border: none;
+	font-family: Raleway;
+	list-style: none;
+	font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    width: 100%;
+    border-bottom: 1px solid #F9BE02;
+}
+
+#fxedNav {
+	background-color: #9CCC65;
+	border-bottom: 1px solid #F9BE02;
+}
+
+#guarantee {
+	font-size: 15px;
+	margin-right: 2%;
+	color: white;
+}
+
+#shipping {
+	color: white;
+	font-size: 15px;
+	margin-left: 2%;
+}
+
+#regNav {
+	margin-top: 3.5%;
+	margin-bottom: 0%;
+}
+
+#navlist {
+	font-size: 21px;
+}
+
+#jumbo1 {
+	background-image: url('../images/sunFlower.jpg');
+	height: 800px;
+	width: 100%;
+	background-size: cover;
+	margin-bottom: 0px;
+	margin-top: 0%;
+	padding-top: 0%;
+}
+
+#jumbo2 {
+	background-image: url('../images/floral.jpg');
+	min-height: 1200px;
+	width: 100%;
+	background-size: cover;
+	margin-bottom: 0px;
+	margin-top: 0%;
+}
+
+#jumbo3 {
+	background-image: url("../images/woodhart.jpg");
+	height: 700px;
+	margin-bottom: 0%;
+}
+
+.ourStory {
+	font-size: 50px;
+	width: 100%;
+	text-align: center;
+	margin-top: 28%;
+	color: #fafbed;
+	font-family: Dancing Script;
+}
+
+#blog {
+	color: white;
+	margin-top: 10%;
+	font-size: 80px;
+}
+
+#b {
+	background-color: #fafbed;
+	padding-top: 2%;
+}
+
+#testingA {
+	margin: 0.625em 0;
+	text-align: justify;
+}
+
+#testingA:first-letter {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+#testingB:first-letter {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+#personalMsg {
+	font-family: Raleway;
+	font-size: 18px;
+	background-color: #fafbed;
+}
+
+#signature {
+	font-family: Montez;
+	font-size: 35px;
+}
+#navlist{
+	float: right;
+}
+
+ul {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+li {
+	float: left;
+	letter-spacing: 1px;
+	margin-right: 25px;
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+}
+
+.name {
+	font-family: Francois One;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 1%;
+	margin-top: 4%;
+}
+
+.descri {
+	font-style: italic;
+	font-size: 16px;
+	height:100px;
+	text-align: center;
+}
+.ingre {
+	text-align: center;
+	height: 90px;
+	margin-top: 5px;
+}
+
+.btnShop {
+	margin-left: 40%;
+}
+
+h3 {
+	font-family: Montez;
+	font-size: 50px;
+	text-align: center;
+	color: #689138;
+	background-color: #feffef;
+	border: 1px solid #F9BE02; 
+	padding: 1%;
+	margin-top: 0%;
+}
+
+/*input {
+	width: 70%;
+	margin-left: 15%;
+}*/
+
+#bundleSum {
+	color: green;
+	font-size: 25px;
+	padding-top: 1%;
+}
+
+#image {
+	margin-top: 80px;
+	margin-left: 0%;
+	padding-left: 0%;
+	/*border: 1px solid #F9BE02;*/
+}
+
+#aboutCH {
+	margin-top: 0%;
+	font-size: 20px;
+	padding: 15px;
+	width: 100%;
+	text-align: center;
+	/*border: 1px solid #F9BE02;*/
+}
+
+.about {
+	color: white;
+}
+
+.lips {
+	font-style: italic;
+	color: #B0120A;
+}
+
+footer {
+	text-align: center;
+	width: 100%;
+	clear: both;
+	background-color: #FEDCD2;
+	font-family: Montez;
+	margin-bottom: auto;
+	margin-top: 0px;
+	font-size: 26px;
+}
+
+
+.newAbout {
+	margin-top: 30px;
+	padding-top: 0px;
+}
+
+#content {
+	font-size: 20px;
+	text-align: center;
+
+}
+
+#lipAndBody {
+	font-family: arial;
+	font-size: 17px;
+	color: black;
+	padding-top: 10px;
+}
+
+#pinterest {
+	height: 33px;
+}
+
+#insta {
+	height: 30px;
+}
+
+.heart {
+	color: #B0120A;
+}
+
+#ready {
+	font-weight: bold;
+}
+
+#welcome {
+	font-family: Dancing Script;
+	font-size: 70px;
+	color: #FDD12D;
+	margin-left: 15%;
+	margin-bottom: 3%;
+}
+
+#copyright {
+	font-size: 18px;
+	font-family: Sacramento;
+	padding-bottom: .5%;
+}
+
+
+.is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+.chapImg {
+	display: inline-block;
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 10px;
+ }
+
+ /*form {
+ 	width: 30%;
+ 	margin-left: 35%;
+ }*/
+
+.row {
+	margin-bottom: 10px;
+}
+
+#wholesale {
+	font-size: 20px;
+}
+
+#bundle {
+	margin-top: 1%;
+	padding-bottom: 1%;
+}
+
+#bundleCont {
+	margin-bottom: 2%;
+}
+
+#bundleDescri {
+	margin-top: 4%;
+	font-size: 19px;
+	min-height: 215px;
+}
+
+.carousel {
+	margin-top: 5%;
+}
+
+#customOrders {
+	font-size: 22px;
+	color: black;
+	font-family: Raleway;
+	/*font-size: 1em;
+	line-height: 1.25em;*/
+	margin: 0.625em 0;
+	text-align: justify;
+}
+
+#customOrders:first-letter {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+.custom {
+	background-image: url("../images/roseField.jpg");
+	border: none;
+	min-height: 250px;
+	border-bottom: 1px solid #F9BE02;
+}
+
+#customBar {
+	font-size: 80px;
+	text-align: center;
+	font-family: Dancing Script;
+	color: #004438;
+	background-color: #dcedc8;
+	display: inline-block;
+	border: 2px solid #F9BE02;
+	padding: .5%;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 3.5%;
+	border-radius: 50%;
+}
+
+#specialFees {
+	font-weight: bold;
+}
+
+#wholesale {
+	text-align: center;
+	font-weight: bolder;
+	background-color: #dcedc8;
+	font-size: 21px;
+}
+
+.customContent {
+	margin-top: 4%;
+	/*background-color: #c1e6df;*/
+	padding: 2%;
+}
+
+.customTagline {
+	margin-top: 5%;
+	color: #c52966;
+}
+
+.customCont {
+	background-color: #fafbed;
+	width: 100%;
+	font-family: Raleway;
+	font-size: 20.5px;
+}
+
+.labels {
+	font-family: Raleway;
+}
+
+.fontH6 {
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+.priceBreaks {
+	clear: both;
+	font-weight: normal;
+	list-style: none;
+}
+
+.balmHeader {
+	text-align: center;
+}
+
+#balmH6 {
+	font-size: 25px;
+	margin-top: 5%;
+}
+
+
+
+#contactBtn {
+	background-color: #FEDCD2;
+	border: none;
+	text-decoration: underline;
+}
+
+.modal-header {
+	background-color: #DCEDC8;
+}
+
+#modalHeader {
+	font-size: 45px;
+}
+
+.labels {
+	float: left;
+	font-family: Raleway;
+	font-size: 20px;
+}
+
+#submitBtn {
+	background-color: #FEDCD2;
+	border: none;
+	font-size: 20px;
+	color: black;  
+}
+
+#modalCloseBtn {
+	background-color: #DCEDC8;
+	font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+   	font-size: 20px!important;
+}
+
+input {
+   	font-size: 20px!important;
+}
+
+textarea {
+	font-size: 20px!important;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+#footerIcons {
+	margin: 0%;
+}
+
+.modal-header {
+	background-image: url("../images/floralBorder.jpeg");
+}
+
+#modalTitle{
+	font-size: 45px;
+	background-color: #DCEDC8;
+	padding: 1%;
+	width: 40%;
+	margin-left: 30%;
+	border-radius: 50%;
+	border: 1px solid #F9BE02;
+}
+
+#mobileHeader {
+	display: none;
+}
+
+#schoolBundle {
+	background-image: url("../images/schoolBundle.jpeg");
+	min-height: 400px;
+	background-repeat: no-repeat;
+	margin-bottom: 5%;
+}
+
+#bundleBtn {
+	width: 80%;
+	margin-left: 10%;
+	background-color: white;
+}
+
+#bundleDescri {
+	margin-bottom: 0%;
+	min-height: 50px;
+}
+
+
+
+

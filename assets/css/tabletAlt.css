@@ -1,0 +1,102 @@
+/*IPAD HORIZONTAL*/
+@media only screen and (max-width:1050px) {
+	
+	.navbar-header {
+		height: 120px;
+	}
+
+	#shipping {
+		text-align: center;
+	}
+
+	#regNav {
+		margin-top: 4%;
+	}
+
+	h1 {
+		font-size: 70px;
+		padding: 0%;
+	}
+
+	#navlist {
+		margin-top: 3%;
+		font-size: 23px;
+	}
+	
+	#logo {
+		height: 65px;
+		margin-bottom: 5%;
+	}
+
+	#toggleBtn {
+		margin-top: 7%;
+		margin-right: 10%;
+		border: 1px solid black;
+	}
+
+	#welcome {
+		width: 70%;
+		margin-left: 30%;
+		text-align: center;
+		margin-top: 0%;
+	}
+
+	#jumbo3 {
+		height: 700px;
+	}
+
+	#jumbo1 {
+		display: none;
+	}
+
+	#mobileHeader {
+		display: block;
+		border: none;
+	}
+}
+
+@media only screen and (max-width:800px) {
+	
+	#navlist {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 0%;
+	}
+
+	#guarantee {
+		display: none;
+	}
+
+	#shipping {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	#logoHeader {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	#jumbo3 {
+		background-image: url("../images/woodhart.png")
+	}
+
+	#welcome {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

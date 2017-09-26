@@ -1,9 +1,5 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 
-	//click function targets tags on the testimonlial page
-	$("#submitBtn").on("click", function(){
+// 	$(".balmGrid").on("click," )
 
-        window.location.replace("https://www.purejoybody.com/thanks.html");
-	});
-
-});
+// });

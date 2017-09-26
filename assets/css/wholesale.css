@@ -19,14 +19,14 @@
 	list-style: none;
 }
 
-#benefit {
+#guarantee {
 	font-size: 15px;
 	margin-right: 2%;
-	color: white;
+	color: black;
 	margin-top: 1%;
 }
 
-#guarantee {
+#benefit {
 	font-size: 15px;
 	margin-right: 2%;
 	color: white;
@@ -55,7 +55,16 @@ a:visited {
 	font-family: Dancing Script;
 	border-bottom: 1px solid #D09683;
 	text-align: center;
-	margin-top: 3%;
+	margin-top: 4%;
+	padding-bottom: .5%;
+}
+
+#mobileLogoWidescreen {
+	display: none;
+}
+
+#mobileLogoVertical {
+	display: none;
 }
 
 h1 {
@@ -153,6 +162,7 @@ h2 {
 	min-height: 50px;
 	margin-top: 3%;
 	padding: 1%;
+	color: black;
 }
 
 
@@ -279,9 +289,11 @@ p {
 #contactH6 {
 	margin-top: 3%;
 	margin-bottom: 0%;
-	color: white;
+	color: #6ab187;
 	font-size: 25px;
 	font-family: Raleway;
+	width: 30%;
+	margin-left: 45%;
 }
 
 #message {
@@ -289,17 +301,18 @@ p {
 }
 
 #contactUs {
-	background-image: url("../images/contactUs.jpeg");
+	background-image: url("../images/desk.jpg");
+	background-repeat: no-repeat;
 	min-height: 650px;
 }
 
 #contactHeader {
 	font-family: Dancing Script;
 	font-size: 100px;
-	color: white;
+	color: #6ab187;
 	width: 50%;
-	margin-left: 25%;
-	margin-top: 5%;
+	margin-left: 35%;
+	margin-top: 18%;
 	text-align: center;
 }
 

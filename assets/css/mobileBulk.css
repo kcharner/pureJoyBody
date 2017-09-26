@@ -1,6 +1,50 @@
 /*MOBILE HORIZONTAL*/
 @media only screen and (max-width:750px) {
 
+	.customLogo {
+		margin-top: 2%;
+	}
+
+	#mobileLogoWidescreen {
+		display: block;
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	#desktopLogo {
+		display: none;
+	}
+
+	#fallPromoPic {
+		display: none;
+	}
+
+	.fallPromoLabel {
+		background-image: url("../images/fallpic.jpg");
+		background-color: white;
+		background-repeat: no-repeat;
+		min-height: 400px;
+	}
+
+	h3 {
+		color: #6ab187;
+		width: 60%;
+		margin-left: 0%;
+		padding-top: 0%;
+		padding-bottom: 2%;
+	}
+
+	#promoContent {
+		width: 40%;
+		color: black;
+		margin-left: 4%;
+		font-size: 16px;
+	}
+
+	#shopBtn {
+		margin-left: 4%;
+	}
+
 	#fxedNav {
 		min-height: 15px;
 	}
@@ -76,23 +120,227 @@
 		margin-top: 3%;
 	}
 
-	/*wholesale page*/
+	/*WHOLESALE PAGE*/
 
 	#bulkOrders {
-		min-height: 450px;
+		min-height: 440px;
 	}
 	
-	#labelContent {
+	.labelContent {
 		min-height: 200px;
-		font-size: 16px;
+		width: 50%;
+		font-size: 17px;
 	}
 
 	#customLabelHeader {
 		font-size: 15px;
 	}
+
+	.clickHeader {
+		margin-top: 40%;
+	}
+
+	#testing {
+		min-height: 400px;
+	}
+
+	#wholesaleCall {
+		min-height: 300px;
+	}
+
+	/*CONTACT PAGE*/
+	#contactUs {
+		background-image: none;
+		background-color: white;
+		min-height: 250px;
+	}
+
+	#contactHeader {
+		width: 70%;
+		margin-left: 15%;
+		margin-top: 3%;
+		font-size: 70px;
+	}
+
+	#contactH6 {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	/*about page*/
+
+	#aboutUs {
+		min-height: 400px;
+	}
+	
+	.aboutHeader {
+		margin-top: 20%;
+		font-size: 80px;
+	}
+
+	#customH3 {
+		font-size: 60px;
+		padding-right: 0%;
+		margin-right: 0%;
+		width: 90%;
+	}
+
+	/*shop page*/
+
+	#shopH3 {
+		font-size: 80px;
+		padding-right: 0%;
+	}
+
+	.balmName {
+		font-size: 20px; 
+	}
+
+	.balmGrid {
+		width: 40%;
+		float: left;
+	}
+
+	.leftGrid {
+		margin-left: 10%;
+	}
+
+	.lastMobile {
+		border-right: 2px solid #fef2e4;
+	}
+
+	.bundleHeader {
+		font-size: 22px;
+	}
+
+	.bundleInfo {
+		font-size: 16px;
+	}
+
+	.bundleContent {
+		font-size: 17px;
+		margin-top: 0%;
+	}
+
+	.bundleIngredients {
+		font-size: 12px;
+		padding-left: 5%;
+	}
+
+	.viewBtn {
+		display: block;
+		text-decoration: underline;
+	}
+
+	.bundleBtn {
+		width: 30%;
+		margin-left: 35%;
+	}
+
+	.oilBuyBtn {
+		width: 30%;
+		margin-left: 35%;
+		margin-bottom: 3%;
+		margin-top: 5%;
+	}
+
+	#cedarPineOil {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#rosemaryPatchouliOil {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.desktopSubHeader {
+		display: none;
+	}
+
+	.headerMobile {
+		display: block;
+	}
+
+	.desktopBlocks {
+		display: none;
+	}
+
+	.mobileLearnMore {
+		display: block;
+	}
+
+	.mobileBlocks {
+		display: inline-block;
+		margin-bottom: 5%;
+	}
+
+	.mobileBalmInfo {
+		display: block;
+	}
+
+	.bundleBtn {
+		width: 30%;
+		margin-left: 35%;
+		margin-bottom: 0%;
+	}
+
+	.modal {
+		min-height: 200px;
+	}
+
+	.modal-content {
+		width: 90%;
+		margin-left: 5%;
+		background-color: #fef2e4;
+	}
+
+	.modalCloseBtn {
+		width: 15%;
+		margin-left: 70%;
+		padding: 0%;
+		color: #6ab187;
+		background-color: #fef2e4;
+		border: none;
+		margin-bottom: 5%;
+	}
+
+	.modalHeader {
+		color: #6ab187;
+		margin-top: 3%;
+	}
+
+	.buyBtn {
+		width: 25%;
+		margin-left: 37.5%;
+	}
+
+	#videoContainer {
+		width: 90%;
+	}
+
+	#video {
+		width: 92%;
+		margin-top: 6%;
+	}
+
+	#abbysMessage {
+		width: 85%;
+		margin-left: 7.5%;
+	}
 }
 
 @media only screen and (max-width:500px) {
+
+	#mobileLogoWidescreen {
+		display: none;
+	}
+
+	#mobileLogoVertical {
+		display: block;
+		width: 100%;
+		margin-left: 0%;
+	}
 
 	#fontDesktop {
 		display: none;
@@ -168,7 +416,141 @@
 		margin-left: 0%;
 	}
 
+	#contactUs {
+		min-height: 200px;
+	}
+
+	#contactHeader {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#contactH6 {
+		margin-bottom: 10%;
+	}
+
+	.fallPromoLabel {
+		background-image: url("../images/mobilePromoPic.jpg");
+		min-height: 300px;
+	}
+
+	h3 {
+		width: 50%;
+		margin-top: 1%;
+		font-size: 30px;
+	}
+
+	#promoContent {
+		display: none;
+	}
+
+	#shopBtn {
+		margin-left: 1%;
+		margin-top: 3%;
+		width: 30%;
+	}
+
+	#customH3 {
+		font-size: 40px;
+		padding-top: 2%;
+	}
+
+	#bulkOrders	{
+		background-image: none;
+		padding-right: 0%;
+		min-height: 300px;
+	}
+	
+	.labelContent {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 4%;
+		background-color: white;
+		color: #6ab187;
+	}
+
+	.form {
+		width: 90%;
+	}
+
+	#test {
+		margin-left: 5%;
+		margin-top: 4%;
+	}
+
+	#leftBox {
+		margin-left: 5%;
+	}
+
+	.priceCols {
+		width: 45%;
+		margin-left: 5%;
+		padding-bottom: 2%;
+	}
+
+	.primarySubHead {
+		display: none;
+	}
+
+	.mobileSubHead {
+		display: block;
+		width: 100%;
+	}
+
+	#wholesaleCall {
+		margin-left: 5%;
+	}
+
+	/*shop page*/
+
+	#shopHeader {
+		min-height: 100px;
+		background-image: none;
+	}
+
+	.balmGrid {
+		width: 75%;
+		margin-left: 12.5%;
+	}
+
+	/*#mobile {
+		background-image: url("../images/mobileBundlePic.jpeg");
+	}*/
+
+	.bundleGrid {
+		width: 80%;
+		margin-left: 10%;
+		min-height: 100px;
+	}
+
+	/*.bundleBtn {
+		width: 45%;
+		margin-left: 27.5%;
+	}*/
+
+	.topIngredient {
+		margin-top: 2%;
+	}
+
+	.bundleIngredients {
+		display: none;
+	}
+
+	.buyBtn {
+		width: 30%;
+		margin-left: 35%;
+	}
+
+	#wholesaleTag {
+		text-align: left;
+	}
+
+	#video {
+		height: 200px;
+	}
 }
+
+
 
 
 
